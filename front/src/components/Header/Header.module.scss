@@ -1,0 +1,40 @@
+.root {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  
+  border-bottom: 1px solid black;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.15px;
+  border-radius: 5px;
+  padding: 0 10px;
+  text-decoration: none;
+
+  &:hover {
+  
+  border-bottom: 1px solid blue;
+    transition: 0.2s ease;
+    
+  }
+}
+
+.buttons {
+  button {
+    margin-left: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
